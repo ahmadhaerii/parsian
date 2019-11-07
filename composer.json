@@ -1,0 +1,12 @@
+{
+  "name": "appsfarsi/parsian",
+  "description": "this is parsian bank for laravel",
+  "type": "library",
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "appsfarsi\\parsin\\": "src"
+    }
+  }
+}
