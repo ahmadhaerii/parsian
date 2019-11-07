@@ -8,5 +8,5 @@
 
 
 return [
-  'pin' => '2346789abcdefghjmnpqrtuxyzABCDEFGHJMNPQRTUXYZ',
+  'pin' => 'your pin',
 ];
