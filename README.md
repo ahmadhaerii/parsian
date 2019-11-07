@@ -1,6 +1,13 @@
 # parsian
 this is parsian bank repository for laravel
 
+composer require appsfarsi/parsian
+
+php artisan vendor:publish
+
+
+
+
 
 جهت صدا زدن درگاه پرداخت #
 ```php
