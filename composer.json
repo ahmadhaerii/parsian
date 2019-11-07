@@ -8,5 +8,12 @@
     "psr-4": {
       "appsfarsi\\parsin\\": "src"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "appsfarsi\\parsian\\ParsianServiceProvider"
+      ]
+    }
   }
 }
