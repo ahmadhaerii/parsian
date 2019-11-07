@@ -97,7 +97,9 @@ class ParsianBank {
     }
     return [
       "status" => false,
-      "error" => "undefined"
+      "error" => "undefined",
+      "statusCode" => "undefined"
+
     ];
   }
 
