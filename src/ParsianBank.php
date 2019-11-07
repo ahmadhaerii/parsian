@@ -79,6 +79,7 @@ class ParsianBank {
         $pay->update(["token" => $result->SalePaymentRequestResult->Token]);
         return [
           "status" => true,
+          "Token" => $result->SalePaymentRequestResult->Token,
           "url" => "https://pec.shaparak.ir/NewIPG/?Token=" . $result->SalePaymentRequestResult->Token
         ];
       } elseif ($result->SalePaymentRequestResult->Status != '0') {
